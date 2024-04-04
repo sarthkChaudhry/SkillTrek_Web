@@ -1,0 +1,66 @@
+.courseList{
+    flex: 4;
+}
+.courseListTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .courseAddButton {
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+
+    
+input[type="file"]{
+  display: none;
+}
+
+.videoUpload{
+  color: white;
+  max-height:50px;
+  width: 150px;
+  background-color: #f5af09;
+  border-radius: 5px;
+  font-size: 20px;
+  margin:24em 42em;
+
+}
+
+.createtest{
+  position: absolute;
+  right: 10px;
+  top:10px;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+ 
+a .lnk {
+  text-decoration: none;
+  color: black;
+ } 
+/*  
+ #video {
+  margin-top: 10%;
+  padding-bottom: 25%;
+ } 
+
+ #pdf {
+  margin-top: 10%;
+  padding-bottom: 25%;
+ } 
+
+ #assign{
+  margin-top: 10%;
+  padding-bottom: 25%;
+ } 
+   */
